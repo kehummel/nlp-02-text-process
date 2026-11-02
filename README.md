@@ -231,3 +231,9 @@ testing, documentation, and code quality.
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
+
+## Documentation for Phase 4 & 5
+
+This is a link to a markdown file in the docs folder that documents phases 4 & 5 of the project. Phase 4 being a technical modification on the example python script and Phase 5 being an application project.
+
+![README documentation for Phases 4 & 5](docs/phase_4_5_README.md)

@@ -35,6 +35,7 @@ dependencies = [
     "matplotlib",       # WHY: Core visualization library for plots used in exploratory analysis.
     "wordcloud",        # WHY: Quick visual exploration of word frequencies in text corpora.
     #"spacy", # WHY: Industrial-strength NLP library for tokenization and linguistic analysis.
+    "pandas>=3.1.0",
 ]
 
 # ============================================================

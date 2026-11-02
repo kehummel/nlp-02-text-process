@@ -1,4 +1,4 @@
-"""text_preprocessing.py - Project script (example).
+"""text_prepro_hummel.py - Project script (example).
 
 Purpose
 
@@ -104,8 +104,8 @@ print(raw_text[:50])
 raw_tokens: list[str] = raw_text.split()
 count_of_raw_tokens: int = len(raw_tokens)
 
-print("First 20 raw tokens:")
-print(raw_tokens[:20])
+print("First 25 raw tokens:")
+print(raw_tokens[:25])
 print(f"Total raw tokens: {count_of_raw_tokens:,}")
 
 # ============================================================
@@ -131,8 +131,8 @@ no_punct_text: str = re.sub(r"[^a-z0-9\s]", " ", lower_text)
 tokens_no_punct: list[str] = no_punct_text.split()
 count_of_tokens_no_punct: int = len(tokens_no_punct)
 
-print("First 20 tokens after lowercasing and punctuation removal:")
-print(tokens_no_punct[:20])
+print("First 25 tokens after lowercasing and punctuation removal:")
+print(tokens_no_punct[:25])
 print(f"Total tokens after punctuation removal: {count_of_tokens_no_punct:,}")
 
 # ============================================================
