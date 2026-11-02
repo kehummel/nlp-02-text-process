@@ -20,9 +20,11 @@ I didn't change the graphs in this phase in any way because the values in the ta
 Since there were more words in the text, there were more words to tokenize and more data points to include in the graph.
 
 Example Data
+
 ![Example Data](/docs/images/example__after.png)
 
 Phase 4 Data
+
 ![Phase 4 Data](/docs/images/phase4_after.png)
 
 Because I made sure to include some of the terms already used in the text, it increased some of the most frequently tokenized texts. The word "text" increased from 5 to 6, "language" increased from 3 to 4, and "understand" which wasn't on the chart previous became the third most frequently tokenized word with three instances.
@@ -32,9 +34,11 @@ Because I made sure to include some of the terms already used in the text, it in
 The bar graph for most frequently tokenized words. The example is first, and the phase 4 modification is second.
 
 Example Bar Graph
+
 ![Example Data](/docs/images/example_table1.png)
 
 Phase 4 Bar Graph
+
 ![Phase 4 Data](/docs/images/phase4_table1.png)
 
 
@@ -45,24 +49,31 @@ Because the number of words increased, in phase 4, the number of instances of cl
 The bar graphs show the counts of words/tokens after each stage of processing.
 
 Example Bar Graph
+
 ![Example Data](/docs/images/example_table2.png)
 
 Phase 4 Bar Graph
+
 ![Phase 4 Data](/docs/images/phase4_table2.png)
 
 ## Phase 5: Apply to a New Scenario
+
+![Application in Phase 5 file: lyrics_text_preprocessing.py](../src/nlp/lyrics_text_preprocessing.py)
 
 For phase 5 I decided to pull some lyrics as the new dataset and run the same set of code on it. There were multiple songs by the same artist in the text file. I thought this would give me a larger dataset to work with as well. Out of the folder of different artists I picked Dolly Parton since she was an idol and I am saddened by her recent passing. I thought about doing another artist at the same time, and then having the ability to compare the two artists. I decided to do Johnny Cash as well in order to stay in the same genre of music.
 
 I followed the same steps, but did it for both artists. First I loaded the text and then tokenized the text document of their lyrics of multiple songs. Then I normalized the text by making all of the text lowercase and removing punctuation. After that I removed stop words. Lastly I created frequency tables for both artists and a summary table.
 
 Dolly Parton's Frequency Graph
+
 ![Dolly Parton Bar Graph](/docs/images/lyrics_1.png)
 
 Johnny Cash's Frequency Graph
+
 ![Johnny Cash Bar Graph](/docs/images/lyrics_2.png)
 
 Summary Table
+
 ![Johnny Cash Bar Graph](/docs/images/lyrics_3.png)
 
 ## Reflection
